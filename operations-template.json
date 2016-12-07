@@ -1,0 +1,34 @@
+{
+  "operations": [
+    {
+      "description": "Description1",
+      "primarySearch": "",
+      "primaryReplace": "",
+      "dependentSearch": "",
+      "dependentReplace": "",
+      "dependencyCondition": false
+    },
+    {
+      "description": "Description2",
+      "primarySearch": "",
+      "primaryReplace": "",
+      "dependentSearch": "",
+      "dependentReplace": "",
+      "dependencyCondition": false
+    }
+  ],
+  "inclusions": [
+    "*.asp",
+    "*.html",
+    "*.htm",
+    "*.xhtml"
+  ],
+  "exclusions": {
+      "folders": [
+        ""
+      ],
+      "files": [
+        ""
+      ]
+    }
+}
