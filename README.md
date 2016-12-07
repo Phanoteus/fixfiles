@@ -125,17 +125,17 @@ The proper format for operation definition files is simply something to be aware
 
 In other words, the FixFiles Configuration Generator (fixfiles.html) is a kind of GUI for the FixFiles PowerShell script (fixfiles.ps1). Open fixfiles.html in any modern browser and specify general settings, such as files to include or exclude and folders to exclude, and define each operation:
 
-![Settings and Operations](https://raw.githubusercontent.com/Phanoteus/fixfiles/assets/image1.jpg)
+![Settings and Operations](assets/image1.jpg)
 
 You can add additional operations by clicking the "Add Operation" button. Then, click the "Generate JSON" button to generate the appropriate output:
 
-![JSON Output](https://raw.githubusercontent.com/Phanoteus/fixfiles/assets/image2.jpg)
+![JSON Output](assets/image2.jpg)
 
 Copy that JSON output into a text file to use as input to the FixFiles PowerShell script (fixfiles.ps1). You don't have to give the file a ".json" extension, but it might be easier to work with in a text editor if you do so. The file might be named, for example, fixes.json.
 
 Then specify the parameters and settings for executing the FixFiles PowerShell script in the FixFiles Command Generator section:
 
-![Command Generator](https://raw.githubusercontent.com/Phanoteus/fixfiles/assets/image3.jpg)
+![Command Generator](assets/image3.jpg)
 
 Then click the "Create Command" button and a PowerShell command-line statement will be generated, which you can then copy to a PowerShell console to execute. An example generated command:
 
