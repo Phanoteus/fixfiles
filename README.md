@@ -113,12 +113,12 @@ This is minimal default template for an operation definition file:
 
 Keep in mind that in order for the strings in this JSON file to be valid, certain characters must be "escaped". For regular expressions, the main characters you will have to escape are double quotes (") and backslashes (\\). That is, if your search regular expression were something like the following:
 
-`<p>"We\swere\ssoldiers\sonce,\sand\syoung,"\she\ssaid.<p>`
+`<p>"We\swere\ssoldiers\sonce,\sand\syoung,"\she\ssaid\.<p>`
 
 To include that in your JSON file as a value in a key/value pair, you'd have to escape the backslashes and quotes and then put the whole string in quotes
 (because string values in JSON files MUST be double-quoted per the JSON spec):
 
-`"primarySearch": "<p>\"We\\swere\\ssoldiers\\sonce,\\sand\\syoung,\"\\she\\ssaid.</p>"`
+`"primarySearch": "<p>\"We\\swere\\ssoldiers\\sonce,\\sand\\syoung,\"\\she\\ssaid\.</p>"`
 
 ## The FixFiles Configuration Generator
 The proper format for operation definition files is simply something to be aware of. You will probably not be creating these JSON operation definition files manually. The easiest way to create a valid JSON operations file is to use the **FixFiles Configuration Generator** (fixfiles.html). The FixFiles Configuration Generator can build a valid operation definition file and you can also use it to create a valid PowerShell command-line command expression to execute the FixFiles script.
